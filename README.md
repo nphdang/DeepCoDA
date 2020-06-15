@@ -8,8 +8,8 @@ We define personalized interpretability as a measure of sample-specific feature 
 
 We propose the DeepCoDA framework to extend precision health modelling to high-dimensional compositional data, and to provide personalized interpretability through patient-specific weights. Our architecture maintains state-of-the-art performance across 25 real-world data sets, all while producing interpretations that are both personalized and fully coherent for compositional data.
 
-## DeepCoDA model architecture
-![model_architecture](https://github.com/nphdang/DeepCoDA/blob/master/network_architecture.pdf)
+## DeepCoDA network architecture
+![network_architecture](https://github.com/nphdang/DeepCoDA/blob/master/network_architecture.jpg)
 
 # Installation
 1. Python 3.6
@@ -18,8 +18,8 @@ We propose the DeepCoDA framework to extend precision health modelling to high-d
 4. tensorflow 1.10.0
 
 # How to run
-- To run the model without attention: "python DeepCoDA_without_attention.py --dataset <data_id> --level <B> --l1 <lambda>"
-- To run the model with attention: "python DeepCoDA_with_attention.py --dataset <data_id> --level <B> --l1 <lambda>"
-- <data_id> is a dataset ID (default is "5a"). If <dataset_id> is "all", then the model will run with all datasets
-- <B> is the number of log-bottlenecks (default is "5")
-- <l1> is L1 penalty term (default is "0.01")
+- To run the model without attention: "python DeepCoDA_without_attention.py --dataset data_id --level B --l1 lambda"
+- To run the model with attention: "python DeepCoDA_with_attention.py --dataset data_id --level B --l1 lambda"
+- data_id is a dataset ID (default is "5a"). If dataset_id is "all", then the model will run with all datasets
+- B is the number of log-bottlenecks (default is "5")
+- l1 is L1 penalty term (default is "0.01")
