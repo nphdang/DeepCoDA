@@ -23,3 +23,6 @@ We propose the DeepCoDA framework to extend precision health modelling to high-d
 - data_id is a dataset ID (default is "5a"). If dataset_id is "all", then the model will run with all datasets
 - B is the number of log-bottlenecks (default is "5")
 - l1 is L1 penalty term (default is "0.01")
+
+# Reference
+Thomas P. Quinn, Dang Nguyen, Santu Rana, Sunil Gupta, Svetha Venkatesh (2020). DeepCoDA: personalized interpretability for compositional health. ICML 2020
