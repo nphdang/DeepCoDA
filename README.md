@@ -9,3 +9,4 @@ We define personalized interpretability as a measure of sample-specific feature 
 We propose the DeepCoDA framework to extend precision health modelling to high-dimensional compositional data, and to provide personalized interpretability through patient-specific weights. Our architecture maintains state-of-the-art performance across 25 real-world data sets, all while producing interpretations that are both personalized and fully coherent for compositional data.
 
 ## DeepCoDA model architecture
+![model_architecture](https://github.com/nphdang/DeepCoDA/blob/master/network_architecture.jpg)
