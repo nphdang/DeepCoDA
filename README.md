@@ -1,4 +1,4 @@
-# DeepCoDA: deep learning model for personalized interpretability for compositional health data
+# DeepCoDA: deep learning for personalized interpretability for compositional health data
 This is the implementation of the DeepCoDA model in the paper "DeepCoDA: personalized interpretability for compositional health data", ICML 2020: https://arxiv.org/pdf/2006.01392.pdf
 
 # Introduction
