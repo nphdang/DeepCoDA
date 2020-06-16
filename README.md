@@ -25,4 +25,4 @@ We propose the DeepCoDA framework to extend precision health modelling to high-d
 - l1 is L1 penalty term (default is "0.01")
 
 # Reference
-Thomas P. Quinn, Dang Nguyen, Santu Rana, Sunil Gupta, Svetha Venkatesh (2020). DeepCoDA: personalized interpretability for compositional health. ICML 2020
+Thomas P. Quinn, Dang Nguyen, Santu Rana, Sunil Gupta, Svetha Venkatesh (2020). DeepCoDA: personalized interpretability for compositional health data. ICML 2020
