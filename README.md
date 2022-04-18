@@ -16,6 +16,7 @@ We propose the DeepCoDA framework to extend precision health modelling to high-d
 2. scikit-learn 0.23.1
 3. keras 2.24
 4. tensorflow 1.10.0
+5. seaborn 0.11
 
 # How to run
 - To run the model without attention: "python DeepCoDA_without_attention.py --dataset data_id --level B --l1 lambda"
